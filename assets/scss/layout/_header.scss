@@ -1,4 +1,32 @@
+<<<<<<< HEAD
 .header{
   background: #69F0AE;
   font-size: 64px;
 }
+=======
+.custom-navbar {
+  background: transparent; /* 忽略背景 */
+  padding: 16px 32px;
+}
+
+.custom-navbar .nav-link {
+  font-size: 20px;
+  color: #ffffff !important;
+  margin-right: 24px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.custom-navbar .nav-link:last-child {
+  margin-right: 0;
+}
+
+.custom-navbar .nav-link:hover {
+  opacity: 0.8;
+}
+
+.custom-navbar .divider {
+  margin: 0 16px;
+  font-size: 20px;
+  opacity: 0.7;
+}
+>>>>>>> e446451 (first commit)
